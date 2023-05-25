@@ -1,0 +1,9 @@
+.tittle {
+  font-family: "Roboto", sans-serif;
+  background-color: black;
+  display: inline-block;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 8px;
+  color: white;
+}

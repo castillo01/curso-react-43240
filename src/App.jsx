@@ -1,7 +1,16 @@
-import { Tarjeta } from "./Tarjeta";
+import { ProductsList } from "./componentes/pages/productsList/ProductsList";
+import Navbar from "./componentes/layout/Navbar/Navbar.jsx";
+import "./App.css";
+import { Brand } from "./componentes/layout/Brand/Brand";
 
-function App() {
-  return <h1>Hola gente bellaaa</h1>;
-}
+const App = () => {
+  return (
+    <div>
+      <Brand />
+      <Navbar />
+      <ProductsList />
+    </div>
+  );
+};
 
 export default App;
